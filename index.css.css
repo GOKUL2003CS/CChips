@@ -1,0 +1,65 @@
+*{
+    padding: 0;margin: 0;
+}
+.header{
+    width:100%;height:100px;background-color: black;color:white;
+    text-align: center;font-size: 1.5rem;word-spacing: 2px;
+    letter-spacing: 3px;position:fixed;top:0px;
+}
+.footer p{
+    color:rgb(247, 0, 0);padding-top:10px;padding-bottom: 10px;
+background-color: black;}
+.header .logo{width:280px;height:auto;
+margin:20px auto;}
+.header span{font-size: 3.5rem;color:white;}
+.nav{width:100%;background-color:rgb(58, 53, 53);margin-top:100px;
+display:flex;justify-content:center;border-top: 1px solid white;
+position:sticky;top:100px;}
+.main{margin-left: 0px;font-family: sans-serif;}
+.menu a{color:white;padding:10px 40px;font-size: 1.1rem;font-family: sans-serif;text-decoration: none;display:block;border-bottom: 3px solid rgb(58, 53, 53);letter-spacing: 2px;}
+.menu a:hover{color:red;border-bottom: 3px solid red;}
+.topics{width:0px;height:100%;position:fixed;left:0px;background-color:black;overflow-y: scroll;
+display:block;}
+span:hover{color:red;}
+.topics .heading{color:white;text-align: center;font-size: 1.8rem;
+background-color: rgb(15, 15, 15);padding-top: 15px;
+padding-bottom: 15px;}
+.topics ul{width:100%;margin:15px auto;}
+.topics ul li{list-style-type: none;;}
+.topics .concepts .concept a{padding-top:8px;padding-left: 20px;
+    text-align: start;padding-bottom: 8px;text-decoration: none;
+    color:white;display:block;}
+.topics .concepts .concept a:hover{background-color:rgb(48, 47, 47);}
+.Tutorials{width:100%;}
+.Tutorials .Tutorial{display:block;
+margin:auto;max-width:80%;padding:25px;box-sizing: border-box;
+text-align: center;}
+.Tutorials .Tutorial h1,h3{text-align: center;padding-top:15px;
+padding-bottom: 15px;font-size: 3.5rem;font-weight: lighter;
+}
+.Tutorials .Tutorial h3{font-size: 1.5rem;color:rgb(122, 122, 122);
+}
+.Tutorials .Tutorial p{max-width:700px;margin:20px auto;justify-content: center;line-height:25px;}
+.Tutorials .Tutorial button{padding:10px 25px;color:white;
+border-radius: 5px;width:120px;background-color: rgb(48,47,47);
+border:none;letter-spacing: 2px;}
+.Tutorials .Tutorial button:hover{background-color: rgb(255, 0, 0);
+color:rgb(255, 255, 255);}
+.footer{width:100%;background-color:rgb(48, 47, 47);
+text-align: center;padding-top:20px;}
+.footer ul{margin-top:10px;margin-bottom:10px;}
+.footer ol{padding-top:15px;padding-bottom: 15px;background-color:black;}
+.footer ol li,.footer ol li a{color:white;}
+.footer ul li{color:white;}
+.footer ul li a{text-decoration: none;color:white;
+     display:inline-block;padding:7px 10px 10px;
+}
+.footer a:hover{color:red;}
+@media only screen and (max-width:600px){
+    .header{width: 100%;height:auto;display:flex;
+    position:sticky;top:0px;}
+    .main{margin-left: 0px;}
+    .topics{width:0px;}
+    .nav{flex-direction: column;position:unset;
+    text-align: center;margin-top:0px;}
+}
